@@ -7,24 +7,12 @@ body {
     color: rgba(0,0,0,0.9);
 }
 
-.page-header {
-    margin-top:150px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;  
     margin-bottom: 20px;	
-    font-size: 10px;
-    line-height: 30px;
+    line-height: 35px;
     color: rgba(0,0,0,0.9);
-}
-
-@media (min-width: 768px){
-    header h1, h1, h2, h3, h4, h5, h6 {
-        font-size: 25px;
-        line-height: 35px;
-    }
 }
 
 p, ul {
@@ -90,18 +78,25 @@ p, ul {
     color: #ccc;
 }
 
+.area {
+    margin-bottom: 50px;
+}
+
 @media (min-width: 768px){
     .navbar-nav>li {
         padding-top: 10px;
         padding-bottom: 30px;
         font-size: 16px;
     }
-    a.list-group-item {font-size: 18px;}
+    a.list-group-item {
+        font-size: 18px;
+    }
+    .area {
+        margin-bottom: 100px;
+    }
 }
 
-.area {
-    margin-bottom: 100px;
-}
+
 
 .area h1, .area h2{
     margin-top: 20px;
