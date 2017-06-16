@@ -8,7 +8,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 400;  
-    color: rgba(0,0,0,0.9);
+    color: rgba(0,0,0,0.6);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 35px;
     margin-bottom: 30px;
 }
 
@@ -30,6 +30,10 @@ p, ul {
     font-size:28px;
     line-height: 35px;
     margin-bottom: 40px;
+}
+
+.navbar-brand {
+    padding-left:0px;
 }
 
 .navbar-brand, .navbar-footer img {
@@ -180,7 +184,7 @@ footer img {
     background-color:#e02c8f;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:visited, .btn-primary:active {
     color: #e02c8f;
     background-color: #fff;
     border-color: #e02c8f;
@@ -192,4 +196,49 @@ a, a:hover, a.list-group-item:hover{
 
 .navbar-toggle {
     margin-top: 30px;
+}
+
+.client-logo {
+    max-height: 120px;
+    margin-top: 50px;
+}
+
+.client-logo img {
+    width:120px;
+    height:auto;
+    margin:0px auto 50px;
+}
+
+.client-logo.one img {
+    width:100px;
+}
+
+.client-logo.two img {
+    width:80px;
+}
+
+.client-logo.three img {
+    width:150px;
+    margin-top: 30px;
+}
+
+.client-logo.four img {
+    width:150px;
+}
+
+.client-logo.five img {
+    margin-top: 0px;
+    width:180px;
+}
+
+.client-logo.six img {
+    width:170px;
+    margin-top: 40px;
+}
+
+.client-logo.seven img {
+}
+
+.client-logo.eight img {
+    margin-top: 20px;
 }
