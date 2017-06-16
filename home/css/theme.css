@@ -184,7 +184,7 @@ footer img {
     background-color:#e02c8f;
 }
 
-.btn-primary:hover, .btn-primary:visited, .btn-primary:active {
+.btn-primary:hover, .btn-primary:visited, .btn-primary:active, .btn-primary:focus {
     color: #e02c8f;
     background-color: #fff;
     border-color: #e02c8f;
