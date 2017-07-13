@@ -146,6 +146,10 @@ a:hover {
     color:white;
 }
 
+.mainfill .navbar-default .navbar-nav>li>a.active{
+    color: #ed2884;
+}
+
 @media (min-width: 768px){
     .mainfill .area {
         padding: 180px 0px 140px;
@@ -155,7 +159,7 @@ a:hover {
 
 /* Layout */
 .area {
-    padding: 75px 0px 55px 0px;
+    padding: 75px 0px 95px 0px;
     text-align:center;
 }
 
@@ -260,7 +264,7 @@ a:hover {
 }
 
 .logos img{
-    margin: 20px auto 0px;
+    margin: 40px auto;
 }
 
 .values img{
