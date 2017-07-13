@@ -251,7 +251,6 @@ a:hover {
 .card-img-top {
     border-top-right-radius: calc(.25rem - 1px);
     border-top-left-radius: calc(.25rem - 1px);
-
 }
 
 .card-block {
