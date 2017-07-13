@@ -146,7 +146,7 @@ a:hover {
     color:white;
 }
 
-.mainfill .navbar-default .navbar-nav>li>a.active{
+.navbar-default .navbar-nav>li>a.active{
     color: #ed2884;
 }
 
@@ -231,7 +231,7 @@ a:hover {
 }
 
 .fill {
-    background-color: rgba(17,24,32,1);
+    background-color: rgba(17,24,32,0.8);
 }
 
 /* Case Study Cards */
