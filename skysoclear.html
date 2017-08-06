@@ -38,26 +38,27 @@
   </head>
 
   <body id="top">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-default navbar-expanded">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed hidden-xs" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://rosschapman.com" title="Homepage">
-          <img src="home/img/logo.svg" class="img-responsive" alt="Ross Chapman">
-        </a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a target="_blank" title="Ross on Twitter" href="https://twitter.com/rosschapman">@rosschapman</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-default navbar-expanded">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://rosschapman.com" title="Homepage">
+            <img src="home/img/logo.svg" class="img-responsive" alt="Ross Chapman">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a target="_blank" title="Ross on Twitter" href="https://twitter.com/rosschapman">@rosschapman</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <!-- Intro - Text organism-->
     <div class="area">
@@ -68,14 +69,46 @@
           </div>
           <div class="col-sm-6 col-sm-pull-6 ">
             <h1>Skysoclear was the collective freelance works of Ross Chapman.</h1>
-            <p>Ross is joining <a href="https://www.etchuk.com/" title="Etch UK">Etch UK</a>, a user experience design and marketing agency based in Southampton, London and Cape Town. <i class="icon icon-smile-o icon-1x"></i></p>
-            <p>While you're here, you can check out his archive of <a href="http://coolness.skysoclear.com/">issues</a> on UX, eCommerce and coolness. If you know Ross through cycling, you should totally see his <a href="http://www.cycleexif.com/wild-love-ross">bike build</a>.</p>
+            <p>Ross has joined <a href="https://www.etchuk.com/" title="Etch UK">Etch UK</a>, a user experience design and marketing agency.</p>
+            <p>While you're here, you can check out his archive of <a href="http://coolness.rosschapman.com/">issues</a> on UX, eCommerce and coolness.</p>
             <p><a class="btn btn-primary btn-lg" href="https://www.etchuk.com/">Go to Etch UK</a> <a class="btn btn-default btn-lg" href="https://rosschapman.com">More about Ross</a></p>
           </div>
         </div>
       </div>
     </div>
 
+    <footer class="area center" id="contact">
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-12 center">
+            <p>For free actionable product design advice every week, please subscribe:</p>
+          </div>
+          <div class="col-xs-10 col-xs-offset-1 center">
+            <div id="revue-embed">
+              <form class="form-inline" action="https://www.getrevue.co/profile/rosschapman/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+                <div class="revue-form-group form-group">
+                  <label class="sr-only" for="member_email">Email address</label>
+                  <input class="revue-form-field form-control emailfield" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+                </div>
+                <div class="revue-form-actions form-group">
+                  <input class="btn btn-primary" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="list-inline social">
+              <li><a target="_blank" href="https://twitter.com/rosschapman" title="Ross on Twitter"><i class="icon icon-twitter icon-1x"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/rosschapman/" title="Ross on Instagram"><i class="icon icon-instagram icon-21x"></i></a></li>
+              <li><a target="_blank" href="https://medium.com/@rosschapman" title="Ross on Medium"><i class="icon icon-medium icon-1x"></i></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/rosspchapman" title="Ross on LinkedIn"><i class="icon icon-linkedin icon-1x"></i></a></li>
+            </ul>
+          </div>
+        </div>
+       </div>
+    </footer>
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="home/js/vendor/jquery.min.js"><\/script>')</script>
