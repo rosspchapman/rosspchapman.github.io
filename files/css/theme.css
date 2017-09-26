@@ -1,0 +1,268 @@
+/* Text */
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.page-header {
+    margin-top:150px;
+}
+
+body, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .social li a, h3 a {
+  color: #10181F;
+}
+
+h1, h2, h3, h4, h5, h6, .h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #10181F;
+}
+
+h1, header .icon {
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 70px;
+}
+
+@media (min-width: 768px){
+    h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+}
+
+p, ul {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+/* Links and buttons */
+.btn {
+    display: inline-block;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.btn.btn-lg {
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.btn.btn-lg i {
+    margin-left: 10px;
+    color:white;
+}
+
+@media (min-width: 768px){
+    .mainfill .area {
+        padding: 180px 0px 140px;
+        margin:0px;
+    }
+}
+
+/* Layout */
+.area {
+    padding: 75px 0px 95px 0px;
+
+}
+
+@media (min-width: 768px){
+    .area {
+        text-align:left;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.form-control, .btn {
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    font-size: 16px;
+}
+
+.form-control.emailfield {
+    height:40px;
+}
+
+@media screen and (min-width: 768px){
+    .form-control.emailfield {
+        width:400px;
+    }
+}
+
+/* Navigation */
+.navbar-default.navbar-expanded {
+    background-color: transparent;
+    border:none;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    z-index: 999;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ccc;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li {
+        font-size: 18px;
+    }
+}
+
+/* Header */
+.mainfill {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../../images/bg.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color:white;
+}
+
+.fill {
+    background-color: rgba(17,24,32,0.8);
+}
+
+/* Case Study Cards */
+.card {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+.card.line{
+    border: 1px solid rgba(0,0,0,.125);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    min-height: 360px;
+}
+
+.card-title {
+    margin-top: 0px;
+}
+
+.card-img-top {
+    border-top-right-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(.25rem - 1px);
+}
+
+.card-block {
+    padding: 20px;
+}
+
+.services .card-block {
+    padding-bottom: 0px;
+}
+
+.logos img{
+    margin: 40px auto;
+}
+
+.values img{
+    width:100px;
+    height:auto;
+    margin:20px auto;
+}
+
+/* Subscribe */
+#subscribe, #subscribe h2{
+  background-color: #000;
+  color:white;
+}
+/* Footer */
+footer {
+  text-align: center;
+}
+
+footer.area {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer p, footer ul {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+footer img.logo {
+    margin: 20px auto;
+}
+
+.copyright-info, .copyright-info a{
+    font-size:12px;
+    line-height:18px;
+}
+
+ .copyright-info a{
+    text-decoration: underline;
+ }
+
+ @media screen and (min-width: 768px){
+    .form-control.emailfield {
+        width: 250px;
+    }
+    footer img {
+        margin-bottom: 18px;
+    }
+    .copyright-info {
+        margin-top:0px;
+    }
+    .social {
+        float:right;
+    }
+}
+
+.social li a {
+    margin: 0px 20px;
+}
+
+.social li a:hover {
+    color:#818a91;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border:none;
+}
+
+.phone {
+  margin-top: 100px;
+}
