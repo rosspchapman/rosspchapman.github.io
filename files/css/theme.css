@@ -6,10 +6,10 @@ html {
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: "proxima-nova",sans-serif;
     font-style: normal;
-    font-size: 22px;
     font-weight: 400;
+    font-size: 22px;
 }
 
 .page-header {
@@ -17,15 +17,16 @@ body {
 }
 
 body, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .social li a, h3 a {
-  color: #10181F;
+    color: #10181F;
 }
 
 h1, h2, h3, h4, h5, h6, .h2 {
-    font-family: 'Nunito', sans-serif;
+    font-family: "proxima-nova",sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     margin-bottom: 20px;
     color: #10181F;
+    letter-spacing: -1px;
 }
 
 h1, header .icon {
@@ -51,6 +52,12 @@ p, ul {
     margin-bottom: 30px;
 }
 
+@media (min-width: 768px){
+  .lead {
+      font-size: 32px;
+  }
+}
+
 /* Links and buttons */
 .btn {
     display: inline-block;
@@ -67,7 +74,17 @@ p, ul {
     padding: 10px 15px;
     border-radius: 4px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
+    background-color:#e02c8f;
+}
+
+.btn-primary{
+    background-color:#e02c8f !important;
+    border-color:#e02c8f;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color:#C92680 !important;
 }
 
 .btn.btn-lg {
@@ -120,6 +137,11 @@ p, ul {
 }
 
 /* Navigation */
+
+a, a:hover {
+    color:#e02c8f;
+}
+
 .navbar-default.navbar-expanded {
     background-color: transparent;
     border:none;
@@ -132,7 +154,7 @@ p, ul {
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-    color: #ccc;
+    color: #e02c8f;
 }
 
 @media (min-width: 768px){
