@@ -48,3 +48,7 @@ a:hover {
 .center {
     text-align: center;
 }
+
+.img-responsive {
+  margin-bottom: 50px;
+}
