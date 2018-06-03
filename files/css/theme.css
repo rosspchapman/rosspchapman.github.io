@@ -1,6 +1,6 @@
 /* Text */
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: "proxima-nova",sans-serif;
     font-style: normal;
     font-weight: 400;
     background-color: #fff;
@@ -19,7 +19,7 @@ body {
 }
 
 h2 {
-  font-weight:bold;
+  font-weight:600;
   margin-top: 80px;
 }
 
@@ -37,7 +37,7 @@ a, a:hover {
 }
 
 a:hover {
-  color:#888;
+  color:#FF137C;
 }
 
 .social {
