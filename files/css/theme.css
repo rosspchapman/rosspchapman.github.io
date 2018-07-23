@@ -4,7 +4,13 @@ body {
     font-style: normal;
     font-weight: 400;
     background-color: #fff;
-    color: #1B1B1B;
+    color: #767676;
+}
+
+hr {
+  border-color: #767676;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .container {
@@ -18,21 +24,33 @@ body {
 }
 }
 
+h1, h2, h3, h4, h5 {
+  color:black;
+}
+
 h2 {
   font-weight:600;
-  margin-top: 80px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 p {
-  font-size: 24px;
-  line-height: 38px;
+  font-size: 20px;
+  line-height: 32px;
   margin-bottom: 38px;
 }
 
+ul {
+  margin-bottom: 38px;
+}
+
+li {
+  font-size: 20px;
+}
+
 a, a:hover {
-    color:#1B1B1B;
-    border-bottom: 2px solid #1B1B1B;
-    font-weight: 600;
+    color:black;
+    border-bottom: 1px solid #1B1B1B;
     text-decoration: none;
 }
 
