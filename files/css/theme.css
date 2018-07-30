@@ -51,13 +51,8 @@ li {
 }
 
 a, a:hover {
-    color:black;
-    border-bottom: 1px solid #1B1B1B;
-    text-decoration: none;
-}
-
-a:hover {
-  color:#FF137C;
+    color:#000;
+    text-decoration: underline;
 }
 
 .social {
