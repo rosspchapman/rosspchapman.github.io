@@ -65,6 +65,7 @@ a, a:hover {
 
 .hero{
   margin-bottom: 50px;
+  animation-delay: 1s;
 }
 
 .bg-bright{
@@ -82,6 +83,14 @@ a, a:hover {
 
 .bg-dark h2{
   color:white;
+}
+
+.bg-dark img {
+  transition: transform .2s;
+}
+
+.bg-dark img:hover {
+  transform: scale(1.05);
 }
 
 .mb-5{
