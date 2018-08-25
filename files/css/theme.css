@@ -91,7 +91,7 @@ a, a:hover {
   text-decoration: none;
 }
 
-.bg-dark h2{
+.bg-dark h2, .bg-dark a{
   color:white;
 }
 
