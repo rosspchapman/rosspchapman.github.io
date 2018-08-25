@@ -80,6 +80,11 @@ a, a:hover {
   padding-top:150px;
 }
 
+.bg-bright.quote{
+  margin-top:0px;
+  padding-top:0px;
+}
+
 .bg-dark{
   color:#ccc !important;
   background-color: #070F26;
@@ -110,7 +115,7 @@ a, a:hover {
 
 .art .left {
   bottom: 0;
-  left: 30px;
+  left: 0px;
   position: absolute;
   width: 35%;"
 }
@@ -119,4 +124,19 @@ a, a:hover {
   float: right;
   position: relative;
   width: 80%;
+}
+
+blockquote {
+  text-align: center;
+  border-left:none;
+  margin-bottom: 50px;
+}
+
+blockquote p{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.img-circle {
+  margin-bottom:50px;
 }
