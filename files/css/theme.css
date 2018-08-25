@@ -95,6 +95,10 @@ a, a:hover {
   color:white;
 }
 
+.bg-dark hr {
+  border-color: #FF137C;
+}
+
 .bg-dark img {
   transition: transform .2s;
 }
