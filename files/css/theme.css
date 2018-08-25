@@ -68,6 +68,11 @@ a, a:hover {
   animation-delay: 1s;
 }
 
+.logos img{
+  width:90%;
+  text-align: center;
+}
+
 .bg-bright{
   background-color: #fff;
   text-decoration: none;
