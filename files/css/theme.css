@@ -2,9 +2,7 @@
 body {
     font-family: 'Karla', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    background-color: #f3f3f3;
-    color:black;
+    background-color: white;
 }
 
 hr {
@@ -26,11 +24,12 @@ hr {
   }
 }
 
-h2 {
+h2, .h2 {
   font-size: 26px;
   margin-top: 10px;
   margin-bottom:20px;
-  color:#FF137C;
+  color:black;
+  font-weight:600;
 
 }
 
@@ -87,7 +86,7 @@ a, a:hover {
 
 .bg-dark{
   color:#ccc !important;
-  background-color: #070F26;
+  background-color: #000;
   text-decoration: none;
 }
 
