@@ -47,11 +47,6 @@ li {
   font-size: 20px;
 }
 
-a, a:hover {
-    color:#070F26;
-    text-decoration: underline;
-}
-
 .social a {
   border-bottom: none;
   font-size: 30px;
@@ -112,7 +107,6 @@ a, a:hover {
 
 .art {
   margin-top:100px;
-  margin-bottom:100px;
   position: relative;
 }
 
@@ -141,6 +135,5 @@ blockquote p{
 }
 
 .img-circle {
-  margin-bottom:50px;
   width:80px;
 }
