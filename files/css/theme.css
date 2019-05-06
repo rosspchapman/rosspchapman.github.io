@@ -11,6 +11,7 @@ hr {
   margin-bottom: 60px;
   width:100px;
   border-top-width:8px;
+  border-radius:6px;
 }
 
 .container {
@@ -81,7 +82,7 @@ li {
 
 .bg-dark{
   color:#ccc !important;
-  background-color: #000;
+  background-color: #282828;
   text-decoration: none;
 }
 
@@ -146,4 +147,5 @@ a, a:hover {
 .btn-primary, .btn-primary:active, .btn-primary:visited {
     background-color: #ff4e0b!important;
     border-color: #ff4e0b;
+    border-radius:30px;
 }
