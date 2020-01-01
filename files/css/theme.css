@@ -139,13 +139,6 @@ blockquote p{
   width:80px;
 }
 
-a, a:hover {
-    color: #ff4e0b;
-    text-decoration: none;
-}
-
 .btn-primary, .btn-primary:active, .btn-primary:visited {
-    background-color: #ff4e0b!important;
-    border-color: #ff4e0b;
     border-radius:30px;
 }
