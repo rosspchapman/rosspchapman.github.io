@@ -19,11 +19,12 @@ hr {
 }
 
 a {
-    color: #6f3aff;
+    color: black;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: black;
+    color: gray;
 }
 
 @media (min-width: 1200px) {
@@ -50,7 +51,7 @@ ul {
 }
 
 li {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .social a {
