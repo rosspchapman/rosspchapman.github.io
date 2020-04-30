@@ -35,8 +35,8 @@ a:hover {
 
 h1, h2, .h2 {
     font-size: 45px;
-
-    font-weight: 600;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
     margin-bottom: 40px;
 }
 
